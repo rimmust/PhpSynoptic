@@ -1,0 +1,50 @@
+.container
+{
+  padding-top: 10px;
+  background-color: lightblue;
+}
+
+h1
+{
+text-align: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+
+h3
+{
+text-align: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+aside
+{
+  float: left;
+
+}
+
+#Box
+{
+  width: 30px;
+  height: 200;
+  background-color: blueviolet;
+}
+
+
+footer
+{
+  position:fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: aqua;
+}
+
+section
+{
+  background-color:gold;
+  width: 600px;
+  height: 200px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration-color: blue;  
+}
