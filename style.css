@@ -1,7 +1,7 @@
 .container
 {
   padding-top: 10px;
-  background-color: lightblue;
+  background-color: #88D9E6;
 }
 
 h1
@@ -20,15 +20,10 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 aside
 {
   float: left;
+  background-color: #C5FFFD;
 
 }
 
-#Box
-{
-  width: 30px;
-  height: 200;
-  background-color: blueviolet;
-}
 
 
 footer
@@ -37,7 +32,7 @@ footer
   width: 100%;
   left: 0;
   bottom: 0;
-  background-color: aqua;
+  background-color: #007090;
 }
 
 section
@@ -48,3 +43,4 @@ section
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration-color: blue;  
 }
+

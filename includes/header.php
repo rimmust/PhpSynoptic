@@ -17,7 +17,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                <a class="nav-link active" aria-current="page" href="createaccount.php">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Create Post</a>
