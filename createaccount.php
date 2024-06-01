@@ -78,6 +78,8 @@ if(isset($_SESSION["user"]))
           mysqli_stmt_bind_param($stmt,"ssssss",$name,$surname,$email,$dob,$passwordHash,$comments);
           mysqli_stmt_execute($stmt);
           echo "<div class ='alert alert-success'>You are registered </div>";
+          //header("Location: aboutus.php");
+    
         }else
         {
           die("Something went wrong pls try again");
