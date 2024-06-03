@@ -138,7 +138,7 @@ if(isset($_SESSION["user"]))
                id="comments" name="comments" style="height: 100px"></textarea>
               
 
-       <input type="submit" value ="register" name="submit">
+       <input class= " btn btn-primary" type="submit" value ="register" name="submit">
      
 
       <button class="btn btn-primary" type="button" id="EditButton" >EditAccount</button>

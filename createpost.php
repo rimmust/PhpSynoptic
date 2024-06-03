@@ -15,11 +15,15 @@ include "includes/header.php";
         <textarea class="form-control" placeholder="Details " id="deatailbox" style="height: 100px"></textarea>
         <label for="floatingTextarea2">Details</label>
         <br>
-        <section>
-          <label for="text">Place Image </label> <br>
-          <img src="" alt="images"><img>
-         </section>
       </div>
+
+        <label for="image">Upload photo</label>
+        <br>
+        <br>
+        <input type="file" class="form-control" name="image"  id="image" placeholder="Upload image ">
+        <br>
+     
+     
       <br>
       <br>
 
