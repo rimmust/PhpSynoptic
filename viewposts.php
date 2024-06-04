@@ -3,12 +3,10 @@ include "includes/header.php";
 ?>
 
 <body>
-    <h3>View all Messages </h3>
+    <h3>View all posts </h3>
     <div class="container">
-      
-     
-    </div>
-          
+
+
 </body>
 
 

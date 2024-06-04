@@ -1,18 +1,22 @@
 <?php
-include "includes/header.php";  
+include "includes/header.php"; 
+require_once "includes/dbh.php"; 
 ?>
 
 <body>
+
     <h3>Create  a Post  </h3>
+    <form action ="index.php" method ="post">
     <div class="container">
-      <div class="Box"></div>
       <div class="mb-3">
-        <label for="text" class="form-label">Name</label>
-        <input type="text" class="form-control" id="nameofP" placeholder="Place visisted ">
+     
+        <label for="text" class="form-label"> country Name</label>
+        <input type="text" class="form-control"  name= "cname" id="" placeholder="Place visited ">
       </div>
 
       <div class="form-floating">
-        <textarea class="form-control" placeholder="Details " id="deatailbox" style="height: 100px"></textarea>
+        <textarea class="form-control" placeholder="Details" 
+        name="details"  id="" style="height: 100px" ></textarea>
         <label for="floatingTextarea2">Details</label>
         <br>
       </div>
@@ -22,12 +26,12 @@ include "includes/header.php";
         <br>
         <input type="file" class="form-control" name="image"  id="image" placeholder="Upload image ">
         <br>
-     
-     
       <br>
       <br>
 
-      <button class="btn btn-primary" type="button" id="PostButton ">Post</button>
+      <input type="hidden" name="date" value="<?php  echo date("Y/m/d"); ?>">
+
+     <input type= "submit" value="Submit" name="post" >
     </div>
           
 </body>

@@ -25,7 +25,6 @@ aside
 }
 
 
-
 footer
 {
   position:fixed;
@@ -33,14 +32,9 @@ footer
   left: 0;
   bottom: 0;
   background-color: #007090;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-section
-{
-  background-color:gold;
-  width: 600px;
-  height: 200px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-decoration-color: blue;  
-}
+
+
 

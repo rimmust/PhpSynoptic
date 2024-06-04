@@ -139,9 +139,6 @@ if(isset($_SESSION["user"]))
               
 
        <input class= " btn btn-primary" type="submit" value ="register" name="submit">
-     
-
-      <button class="btn btn-primary" type="button" id="EditButton" >EditAccount</button>
       </form>
      
       </div>
