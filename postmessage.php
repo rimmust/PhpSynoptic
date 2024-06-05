@@ -14,7 +14,6 @@ include "includes/header.php";
       <br>
       <br>
       <button class="btn btn-primary" type="button" id="PostButton ">Post</button>
-      <button class="btn btn-primary" type="button" id="PostButton ">Like</button>
       <button class="btn btn-primary" type="button" id="PostButton ">Reply</button> 
     </div>
           

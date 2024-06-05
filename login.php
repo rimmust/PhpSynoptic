@@ -17,7 +17,7 @@ if(isset($_SESSION["user"]))
 <body>
 
 <h2>Log In</h2>
-<h3>Welcome back share with us more travelling expierences</h3>
+<h3>Welcome back share with us more travelling experiences</h3>
 <div class="container">
 
         <form action ="login.php" method ="post">
@@ -71,8 +71,13 @@ if(isset($_SESSION["user"]))
        </div>
       </form>
         </div>
- 
+
         <div> <p>Not registred <a href ="createaccount.php"> register here</a></p></div>
+
+        <div class="logo">
+    <img src="images/logo.png" alt="profile picture image"> 
+  </div>
+ 
   
 </body>
 

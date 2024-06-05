@@ -6,7 +6,7 @@ require_once "includes/dbh.php";
 <body>
 
     <h3>Create  a Post  </h3>
-    <form action ="index.php" method ="post">
+    <form action ="index.php" method ="post" >
     <div class="container">
       <div class="mb-3">
      

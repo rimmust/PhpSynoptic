@@ -8,24 +8,40 @@
     <title>Traveller social media platform</title>
 </head>
 <header>  
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid" style="background-color: #007090;">
+          
+
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="aboutus.php">About Us</a>
+                <a class="nav-link active" aria-current="page" href="index.php" class="d-flex">
+                <img src="images/home.png" width="40" height="40"></a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="createpost.php">Create Post</a>
+              <a class="nav-link" href="aboutus.php" >
+              <img src="images/aboutus.png" width="40" height="40"></a>
+
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="Profile.php">Profile</a>
+                <a class="nav-link" href="createpost.php" >
+                <img src="images/AddNote.png" width="40" height="40"></a>
               </li>
+
+
+              <li class="nav-item" >
+                <a class="nav-link" href="Profile.php" >
+                <img src="images/Signin.png" width="40" height="40" ></a>
+              </li>
+
+              <li class="nav-item" >
+                <a class="nav-link" href= "addimages.php" >
+                <img src="images/addimage.png" width="40" height="40" ></a>
+              </li>
+
             </ul>
+
           </div>
       </nav>
 </div>

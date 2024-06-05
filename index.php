@@ -24,6 +24,8 @@ if(isset($_POST["post"]))
   $details = $_POST["details"];
   $date  = $_POST ["date"];
   $image = $_POST ["image"]; 
+  
+
   $sqlInsert = "INSERT INTO posts(countryname,details,image,date) 
   VALUES ('$countryname','$details', '$image', '$date')";
   if(mysqli_query($conn,$sqlInsert))
@@ -33,11 +35,9 @@ if(isset($_POST["post"]))
   {
    die("no inserted data");
   }
-
 }
 
 ?>
-
 <?php
 $sqlSelect = "SELECT * FROM posts";
 $result = mysqli_query($conn,$sqlSelect);
@@ -46,8 +46,9 @@ while($data = mysqli_fetch_array($result))
 ?>
     <?php echo $data['countryname']; ?> <br>
     <?php echo $data['details']; ?> <br>
-    <?php echo $data['date']; ?><br>  
-    <?php echo $data['image']; ?> <br>
+    <?php echo $data['date']; ?><br>
+    <img src="uploads/<?php echo $row['image'] ?> "/>
+  
 
     <a class= "btn btn-info" href= "editpost.php?id=<?php echo $data ["postid"]?>">Edit</a>
     <a class= "btn btn-danger" href= "deletepost.php?id=<?php echo $data ["postid"]?>">Delete</a>
@@ -62,8 +63,6 @@ while($data = mysqli_fetch_array($result))
 
 </div>
 </body>
-<a href = "logout.php" class="btn-btn-warning">SignOut</a> 
-
 
 <?php
 include "includes/footer.php";

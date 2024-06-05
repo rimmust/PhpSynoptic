@@ -9,7 +9,7 @@ include "includes/header.php";
   Hello Travaller<br>
   Thanks for sharing your travelling expierences in our,website for more content please follow us on our social media platforms 
  </aside>
-  </div>
+
 
 </body>
 
