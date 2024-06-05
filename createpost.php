@@ -3,6 +3,16 @@ include "includes/header.php";
 require_once "includes/dbh.php"; 
 ?>
 
+<?php
+//one can access the home page once he or she are logged in
+session_start();
+if(!isset($_SESSION["user"]))
+{
+  header("Location: login.php");
+}
+
+?>
+
 <body>
 
     <h3>Create  a Post  </h3>

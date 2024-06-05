@@ -1,8 +1,6 @@
 <?php
 include "includes/header.php";  
 require_once "includes/dbh.php";
-
-
 ?>
 
 <?php

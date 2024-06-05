@@ -41,6 +41,7 @@ text-align: center;
 .profilepic
 {
  float: right;
+
 }
 
 .signout
@@ -53,4 +54,11 @@ text-align: center;
 {
 
  padding-left: 650px;
+}
+
+.banner
+{
+  padding-left: 350px;
+  padding-bottom: 90px;
+ 
 }

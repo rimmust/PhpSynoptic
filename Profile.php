@@ -8,7 +8,7 @@ require_once "includes/dbh.php";
     <div class="container">
 
     <div class="profilepic">
-<img src="images/Profile.png" alt="profile picture image"> 
+<img src="images/profileimage.png" alt="profile picture image"> 
   </div>
     <?php
     $query = "SELECT * FROM users";
