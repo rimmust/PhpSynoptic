@@ -33,7 +33,7 @@ if(isset($_SESSION["user"]))
         if(empty($name) OR  empty($surname) OR empty($email) OR empty( $dob) 
         OR empty($password)  OR empty($repassword) OR empty($comments))
       {
-        array_push($errors,"All fiels requred please");
+        array_push($errors,"All fields required please");
 
       }
       if(!filter_var($email,FILTER_VALIDATE_EMAIL))
@@ -78,7 +78,8 @@ if(isset($_SESSION["user"]))
           mysqli_stmt_bind_param($stmt,"ssssss",$name,$surname,$email,$dob,$passwordHash,$comments);
           mysqli_stmt_execute($stmt);
           echo "<div class ='alert alert-success'>You are registered </div>";
-          //header("Location: aboutus.php");
+          header("Location: index.php");
+          
     
         }else
         {

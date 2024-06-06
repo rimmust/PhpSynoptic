@@ -5,6 +5,7 @@ require_once "includes/dbh.php";
 
 <?php
 //one can access the home page once he or she are logged in
+//this page has the form for the user to make a post 
 session_start();
 if(!isset($_SESSION["user"]))
 {

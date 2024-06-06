@@ -11,6 +11,7 @@ require_once "includes/dbh.php";
 <img src="images/profileimage.png" alt="profile picture image"> 
   </div>
     <?php
+    //this is the code to show the data of when the user creeates a new account
     $query = "SELECT * FROM users";
     $query_run = mysqli_query($conn,$query);
 

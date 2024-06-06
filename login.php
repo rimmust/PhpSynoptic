@@ -22,6 +22,7 @@ if(isset($_SESSION["user"]))
 
         <form action ="login.php" method ="post">
              <?php
+             //the form for login chekc login details and if passwords match
               if(isset($_POST["login"]))
               {
                 $email = $_POST["email"];
@@ -36,7 +37,6 @@ if(isset($_SESSION["user"]))
                     //start a new session
                     session_start();
                     $_SESSION["user"] = "yes";
-                    //arrange this problem
                       header("Location: index.php");
                       die();
                   }else

@@ -18,6 +18,7 @@ if(!isset($_SESSION["user"]))
 <div class="container">
 <h3>Welcome to our site Traveler</h3>
 <?php
+//this code inserts the data into posts table
 if(isset($_POST["post"]))
 {
   $countryname = $_POST["cname"];
@@ -39,6 +40,7 @@ if(isset($_POST["post"]))
 
 ?>
 <?php
+//this code select all data from posts
 $sqlSelect = "SELECT * FROM posts";
 $result = mysqli_query($conn,$sqlSelect);
 while($data = mysqli_fetch_array($result))

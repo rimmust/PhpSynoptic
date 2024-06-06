@@ -3,6 +3,8 @@
 ?>
 
 <?php
+//the post can be delete by getting all details and attributes from post
+
 $id = $_GET['id'];
 if($id){
 $sqlDelete = "DELETE FROM posts WHERE postid = $id";

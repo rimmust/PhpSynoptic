@@ -15,6 +15,9 @@ if(!isset($_SESSION["user"]))
 ?>
 
 <?php
+//here we submit the image to database
+//we use tempname for the file name
+//folder represents the folder named uploads which is a directory in this file.
 if(isset($_POST['submit']))
 {
     $file_name = $_FILES['image']['name'];
@@ -42,6 +45,7 @@ if(isset($_POST['submit']))
 
 
 <?php 
+//selects all the images from tables and shows them in the page
 $res = mysqli_query($conn,"SELECT * FROM gallery");
 while($row = mysqli_fetch_assoc($res)){
  ?>
